@@ -1,5 +1,5 @@
 context:
-  version: "2.3.5"
+  version: "2.4.0b1"
 
 package:
   name: cc-plugin-wcrp
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/cc-plugin-wcrp/cc_plugin_wcrp-${{ version }}.tar.gz
-  sha256: 72660fac11112a22be2c64e07d21d3cad4c17ef8e1d71e9cc9573ffab3c0feb6
+  sha256: 7b4fa30b4732fc81db03c7c63a7012d49c16c245d453cd9b83ae7771aefefbc4
 
 build:
   noarch: python
@@ -27,7 +27,7 @@ requirements:
     - netcdf4
     - cftime
     - toml
-    - esgvoc
+    - esgvoc >=5.1.0
     - pooch
     - pyfive >=1.1.1
     - pydantic >=2.12.5

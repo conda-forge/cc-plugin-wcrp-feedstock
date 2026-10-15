@@ -35,10 +35,10 @@ Current release info
 Installing cc-plugin-wcrp
 =========================
 
-Installing `cc-plugin-wcrp` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `cc-plugin-wcrp` from the `conda-forge/label/cc-plugin-wcrp_rc` channel can be achieved by adding `conda-forge/label/cc-plugin-wcrp_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/cc-plugin-wcrp_rc
 conda config --set channel_priority strict
 ```
 
@@ -84,7 +84,7 @@ It is possible to list all of the versions of `cc-plugin-wcrp` available on your
 <summary>With conda</summary>
 
 ```
-conda search cc-plugin-wcrp --channel conda-forge
+conda search cc-plugin-wcrp --channel conda-forge/label/cc-plugin-wcrp_rc
 ```
 
 </details>
@@ -93,7 +93,7 @@ conda search cc-plugin-wcrp --channel conda-forge
 <summary>With mamba</summary>
 
 ```
-mamba search cc-plugin-wcrp --channel conda-forge
+mamba search cc-plugin-wcrp --channel conda-forge/label/cc-plugin-wcrp_rc
 ```
 
 </details>
@@ -102,7 +102,7 @@ mamba search cc-plugin-wcrp --channel conda-forge
 <summary>With pixi</summary>
 
 ```
-pixi search cc-plugin-wcrp --channel conda-forge
+pixi search cc-plugin-wcrp --channel conda-forge/label/cc-plugin-wcrp_rc
 ```
 
 </details>
@@ -112,13 +112,13 @@ pixi search cc-plugin-wcrp --channel conda-forge
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search cc-plugin-wcrp --channel conda-forge
+mamba repoquery search cc-plugin-wcrp --channel conda-forge/label/cc-plugin-wcrp_rc
 
 # List packages depending on `cc-plugin-wcrp`:
-mamba repoquery whoneeds cc-plugin-wcrp --channel conda-forge
+mamba repoquery whoneeds cc-plugin-wcrp --channel conda-forge/label/cc-plugin-wcrp_rc
 
 # List dependencies of `cc-plugin-wcrp`:
-mamba repoquery depends cc-plugin-wcrp --channel conda-forge
+mamba repoquery depends cc-plugin-wcrp --channel conda-forge/label/cc-plugin-wcrp_rc
 ```
 
 </details>
